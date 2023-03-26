@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "go-it-web-hw6-sql-basics"
+version = "0.1.0"
+description = ""
+authors = ["Your Name <you@example.com>"]
+readme = "README.md"
+packages = [{include = "go_it_web_hw6_sql_basics"}]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+faker = "^18.3.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
